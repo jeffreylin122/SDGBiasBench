@@ -1,7 +1,5 @@
 # SDGBiasBench: Benchmarking and Mitigating Vision–Language Models' Biases in Sustainable Development Goals
 
-The official repository for the paper "SDGBiasBench: Benchmarking and Mitigating Vision–Language Models' Biases in Sustainable Development Goals" (EMNLP 2026 Findings).
-
 [Paper](https://arxiv.org/abs/2605.21919) · [Dataset (Hugging Face)](https://huggingface.co/datasets/jeffreylin122/SDGBiasBench)
 
 **SDGBiasBench**
