@@ -5,7 +5,6 @@
 <p>
   <a href="https://arxiv.org/abs/2605.21919"><img src="https://img.shields.io/badge/arXiv-2605.21919-b31b1b.svg" alt="arXiv"></a>
   <a href="https://huggingface.co/datasets/jeffreylin1222/SDGBiasBench"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-SDGBiasBench-yellow" alt="Dataset"></a>
-  <img src="https://img.shields.io/badge/EMNLP-2026%20Findings-blue" alt="EMNLP 2026 Findings">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
 </p>
 
