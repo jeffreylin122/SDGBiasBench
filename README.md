@@ -74,9 +74,6 @@ Every question is evaluated under four **evidence views** (paper Sec. 3.1):
 | Q-only | question                   | `<task>_T5_text`             |
 
 
-See the [dataset card](https://huggingface.co/datasets/jeffreylin1222/SDGBiasBench) for fields,
-splits and how the data was built.
-
 ## Repository layout
 
 ```
