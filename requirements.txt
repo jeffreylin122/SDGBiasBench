@@ -1,0 +1,6 @@
+torch>=2.0
+numpy
+pandas
+openpyxl        # read .xlsx prediction files
+pyarrow         # optional: .parquet input/output
+huggingface_hub # dataset download
