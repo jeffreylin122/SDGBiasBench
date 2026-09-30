@@ -1,6 +1,6 @@
 # SDGBiasBench: Benchmarking and Mitigating Vision–Language Models' Biases in Sustainable Development Goals
 
-[Paper](https://arxiv.org/abs/2605.21919) · [Dataset (Hugging Face)](https://huggingface.co/datasets/jeffreylin122/SDGBiasBench)
+[Paper](https://arxiv.org/abs/2605.21919) · [Dataset (Hugging Face)](https://huggingface.co/datasets/jeffreylin1222/SDGBiasBench)
 
 **SDGBiasBench**
 
@@ -50,7 +50,7 @@ Every question is evaluated under four **evidence views** (paper Sec. 3.1):
 | Q-only | question                   | `<task>_T5_text`             |
 
 
-See the [dataset card](https://huggingface.co/datasets/jeffreylin122/SDGBiasBench) for fields,
+See the [dataset card](https://huggingface.co/datasets/jeffreylin1222/SDGBiasBench) for fields,
 splits and how the data was built.
 
 ## Repository layout
@@ -83,7 +83,7 @@ pip install -r requirements.txt
 ## Preparing SDGBiasBench
 
 ```bash
-huggingface-cli download jeffreylin122/SDGBiasBench --repo-type dataset --local-dir data/SDGBiasBench
+huggingface-cli download jeffreylin1222/SDGBiasBench --repo-type dataset --local-dir data/SDGBiasBench
 python -m sdgbiasbench.make_views --data-root data/SDGBiasBench --out views
 ```
 
@@ -194,4 +194,4 @@ pred = predict(pv, CADEParams(alpha=1.0, lambda_kl=2.0, beta=1.0, tau=0.9))[0]  
 
 ## License
 
-The code is released under the [MIT License](LICENSE). The dataset is released under CC BY-SA 4.0 (see the [dataset card](https://huggingface.co/datasets/jeffreylin122/SDGBiasBench)).
+The code is released under the [MIT License](LICENSE). The dataset is released under CC BY-SA 4.0 (see the [dataset card](https://huggingface.co/datasets/jeffreylin1222/SDGBiasBench)).
